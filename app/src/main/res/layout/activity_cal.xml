@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="900px"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/rl_operation">
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:id="@+id/line_h_1"
+                android:background="#dddddd"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:id="@+id/line_h_2"
+                android:layout_below="@+id/btn_clear"
+                android:background="#dddddd"/>
+
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:id="@+id/line_h_3"
+                android:layout_below="@+id/btn_1"
+                android:background="#dddddd"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:id="@+id/line_h_4"
+                android:layout_below="@+id/btn_4"
+                android:background="#dddddd"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:id="@+id/line_h_5"
+                android:layout_below="@+id/btn_7"
+                android:background="#dddddd"/>
+
+
+            <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1px"
+                    android:id="@+id/line_v_1"
+                    android:layout_toRightOf="@+id/btn_1"
+                    android:background="#dddddd"/>
+
+            <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1px"
+                    android:id="@+id/line_v_2"
+                    android:layout_toRightOf="@+id/btn_2"
+                    android:background="#dddddd"/>
+
+            <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1px"
+                    android:id="@+id/line_v_3"
+                    android:layout_toRightOf="@+id/btn_3"
+                    android:background="#dddddd"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_1"
+                android:text="C"
+                android:tag="C"
+                android:id="@+id/btn_clear"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_1"
+                android:layout_toRightOf="@id/line_v_1"
+                android:text="&lt;-"
+                android:tag="D"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_1"
+                android:layout_toRightOf="@id/line_v_2"
+                android:text="÷"
+                android:tag="÷"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="180px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_1"
+                android:layout_toRightOf="@id/line_v_3"
+                android:text="×"
+                android:tag="×"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_2"
+                android:text="1"
+                android:tag="1"
+                android:id="@+id/btn_1"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_2"
+                android:layout_toRightOf="@id/line_v_1"
+                android:text="2"
+                android:tag="2"
+                android:id="@+id/btn_2"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_2"
+                android:layout_toRightOf="@id/line_v_2"
+                android:text="3"
+                android:tag="3"
+                android:id="@+id/btn_3"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="180px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_2"
+                android:layout_toRightOf="@id/line_v_3"
+                android:text="+"
+                android:tag="+"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_3"
+                android:text="4"
+                android:tag="4"
+                android:id="@+id/btn_4"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_3"
+                android:layout_toRightOf="@id/line_v_1"
+                android:text="5"
+                android:tag="5"
+                android:id="@+id/btn_5"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_3"
+                android:layout_toRightOf="@id/line_v_2"
+                android:text="6"
+                android:tag="6"
+                android:id="@+id/btn_6"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="180px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_3"
+                android:layout_toRightOf="@id/line_v_3"
+                android:text="-"
+                android:tag="-"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_4"
+                android:text="7"
+                android:tag="7"
+                android:id="@+id/btn_7"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_4"
+                android:layout_toRightOf="@id/line_v_1"
+                android:text="8"
+                android:tag="8"
+                android:id="@+id/btn_8"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_4"
+                android:layout_toRightOf="@id/line_v_2"
+                android:text="9"
+                android:tag="9"
+                android:id="@+id/btn_9"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="180px"
+                android:layout_height="359px"
+                android:layout_below="@id/line_h_4"
+                android:layout_toRightOf="@id/line_v_3"
+                android:text="="
+                android:tag="="
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_5"
+                android:text="( )"
+                android:tag="K"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_5"
+                android:layout_toRightOf="@id/line_v_1"
+                android:text="0"
+                android:tag="0"
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+        <Button
+                android:layout_width="179px"
+                android:layout_height="179px"
+                android:layout_below="@id/line_h_5"
+                android:layout_toRightOf="@id/line_v_2"
+                android:text="."
+                android:tag="."
+                android:gravity="center"
+                android:background="@drawable/bg_btn"
+                android:textColor="#eeeeee"
+                android:textSize="100px"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:textSize="64px"
+            android:padding="20px"
+            android:background="#333333"
+            android:textColor="#eeeeee"
+            android:layout_above="@id/rl_operation"
+            android:text="0"
+            android:id="@+id/tv_result"/>
+</RelativeLayout>
